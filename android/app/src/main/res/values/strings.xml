@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">bongisa</string>
+    <string name="title_activity_main">bongisa</string>
+    <string name="package_name">com.exemple.bongisa</string>
+    <string name="custom_url_scheme">com.exemple.bongisa</string>
+</resources>

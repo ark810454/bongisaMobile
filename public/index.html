@@ -6,6 +6,83 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+/* src/assets/styles.css ou dans <style> de App.vue */
+  @font-face {
+  font-family: 'MaPolice';
+  src: url('fonts/neoda.otf') format('otf'),
+       url('fonts/neoda.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'poppins';
+  src:  
+       url('fonts/poppins-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* theme light */
+
+:root{
+  --white: #f2f4f6;
+  --light: #e5eaf0;
+  --lightText: #b0becf;
+  --light2: #ebeff4;
+  --black: #04101Eaa;
+  --blackk: #04101Ecc;
+  --blackkk: #04101E;
+  --primary: #1758A2;
+  --prim: #0c2e54;
+  --secondary: #1758A222;
+  --border: #04101E22;
+  --text: #04101E88;
+  --varPrim: #1ca2a2;
+  --danger: #A0004F;
+  --tertiary: #9553A0;
+  --poppins: Poppins, sans-serif;
+  --neoda: 'MaPolice', sans-serif;
+
+}
+body{
+  background-color: var(--white);
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+/* rheme dark */
+/*       :root{
+  --black: #f5f4ee;
+  --white: #181814;
+  --primary: #FED210;
+  --secondary: #FED21044;
+  --border: #f5f4ee55;
+  --text: #f5f4eebb;
+  --varPrim: #FED21077;
+  --dark: #f5f4eeee;
+}
+body{
+    background-color: var(--white);
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    top: -60px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.4s ease-in-out;
+    font-family: var(--poppins);
+    text-decoration: none;
+}
+    </style>
   </head>
   <body>
     <noscript>
